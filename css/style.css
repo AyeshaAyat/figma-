@@ -1,10 +1,13 @@
 /* ALL COMMON CSS START  */
+
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Poppins", serif;
 }
-a{
+a {
     text-decoration: none;
     display: inline-block;
 }
@@ -23,7 +26,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 45px 0;
 }
 .container{
-    width: 1240px;
+    width: 1320px;
     margin: 0 auto;
 }
 .headerFlex{
@@ -129,8 +132,201 @@ font-weight: normal;
 .roomsflex{
  display: flex;
  justify-content: space-around;
+ text-align: center;
 }
 .roomflex p{
     width: 100%;
 }
+.room img{
+    width: 100%;
+}
+.room p{
+   font-size: 24px;
+    font-weight: 600;
+  padding-top: 30px;
+  font-family: "Poppins", serif;
+}
+
 /* room part end */
+
+/* PRODUCT PART START  */
+#productPart{
+padding-bottom: 90px;
+
+}
+.productItemPart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    row-gap: 35px;
+}
+.productItem{
+    width: 23%;
+    position: relative;
+}
+.productOverly{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box{
+    background-color: #fff;
+    height: 60px;
+    width: 220px;
+    margin-top: 170px;
+    margin-left: 45px;
+    text-align: center;
+}
+.picon{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.picon i{
+color:#fff;
+font-style: 16px;
+font-weight: 600;
+}
+.picon p{
+    display: inline-block;
+    padding-left: 5px;
+}
+.box p{
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 20px;
+}
+.productItem img{
+    width: 100%;
+    display: block;
+}
+.badge{
+    position: absolute;
+    background-color: #E97171;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    top: 25px;
+    right: 10px;
+   
+}
+.badge p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.productText{
+    background-color:#F4F5F7;
+    padding: 20px 15px;
+}
+.productText h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%;
+    color: #3A3A3A;
+}
+.productText p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #898989;
+}
+.productText del{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 150%;
+    color: #B0B0B0;
+   padding-left: 10px;
+}
+
+button{
+    height: 50px;
+    width: 250px;
+    border-color: #B88E2F;
+    border-bottom-color: #B88E2F;
+    background-color: white;
+    color: #B88E2F;
+ margin-top: 40px;
+ margin-left: 50%;
+ transform: translateX(-50%);
+ font-size: 16px;
+ font-weight: 600;
+}
+/* PRODUCT PART END  */
+
+/* ABOUT PART START  */
+#aboutPart{
+    padding: 45px 200px 35px 100px;
+  border-top: 1px solid rgba(159, 159, 159, 0.6) ;
+  
+}
+.aboutflex{
+    display: flex;
+    justify-content: space-between;
+}
+.Lpart{
+   padding: 25px;
+    width: 500px;
+ background-color: #fff;
+   
+}
+.Lpart img{
+height: 35px;
+width: 85px;
+padding:  45px 30px 35px 80px;
+}
+.Lpart p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #9F9F9F;
+    padding: 45px 30px 35px 80px ;
+}
+.Rpart{
+height: 400px;
+  width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.Rpart ul li a{
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-weight:500;
+    padding-top:60px ;
+}
+ input{
+    padding: 10px 20px 14px 0;
+    border: none;
+    color: #000;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+.Rpart button{
+    color: #000;
+    border: none;
+  border-bottom: 2px solid black;
+width: 100px;
+}
+.lastp{
+    margin-top: 95px;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid #B0B0B0;
+    padding-top: 35px;
+
+}
+/* ABOUT PART END  */
